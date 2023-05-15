@@ -1,0 +1,106 @@
+body {
+    
+    background-color: rgb(255, 136, 0);}
+
+
+.logo {
+    margin-left: 260px;margin-bottom: 80px;
+
+}
+#drop {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+margin-top: 100 px;
+ list-style-type: none;}
+ a { font-weight: bolder;
+     font-size: 50px;
+     display: block;
+     width: 330px;
+     background-color: black;
+     color: whitesmoke; 
+     padding: 20px ;
+     text-decoration: none;
+     text-align: center;
+ }
+li a:hover{ 
+    background-color: rgb(255, 187, 0);
+
+}
+#left {
+  text-align: left;
+}
+.left >img {
+
+    width: 450px;
+    opacity: 1;
+}
+.left >img:hover {
+    opacity: 0.3;
+
+}
+#right{
+    text-align: right; margin-left: 1000px;
+}
+.right >img {
+
+    width: 450px;
+    opacity: 1;
+}
+.right >img:hover {
+    opacity: 0.3;
+
+}
+.top{ 
+    margin-top: 80px;
+
+}
+p {
+    text-align: center;
+}
+
+
+.opacity > img {
+    width: 450px;
+    opacity: 1;
+}
+
+   .opacity >img:hover {
+
+                     opacity: 0.3;
+
+   }
+   table { text-align: center;
+       width: 1500px;  margin-top: 50px;
+    border-collapse: collapse;
+}
+table{
+
+    border: 1px solid rgb(255, 255, 255);
+   }
+
+   th  {
+       padding: 20px;
+       font-family: fantasy;
+       font-size: 30px;
+   }
+   td { color: rgb(255, 183, 0);
+       padding: 20px;
+       font-family: fantasy;
+       font-size: 20px;
+   }
+   tr:hover{
+       background-color: rgb(31, 30, 30);
+   }
+   span {
+       color: rgb(255, 255, 255);
+   }
+   span [title ~= "pumba"] {
+      background-color: rgb(83, 0, 0);
+   } 
